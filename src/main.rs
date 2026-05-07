@@ -37,7 +37,7 @@ use livekit::{Room, RoomEvent, RoomOptions, StreamByteOptions, StreamWriter as _
 use livekit_api::access_token::{AccessToken, VideoGrants};
 use tracing::info;
 
-const LIVEKIT_URL: &str = "http://localhost:7880";
+const LIVEKIT_URL: &str = "http://192.168.1.254:7880";
 const API_KEY: &str = "devkey";
 const API_SECRET: &str = "secret";
 
