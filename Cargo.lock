@@ -504,8 +504,6 @@ dependencies = [
 [[package]]
 name = "device-info"
 version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a2ca8e71544c1b67dcdbc2699ab258828aff985e5bc8d5f6b486d90d7df2f848"
 dependencies = [
  "core-foundation 0.10.1",
  "jni",
@@ -1411,8 +1409,6 @@ checksum = "b6d2cec3eae94f9f509c767b45932f1ada8350c4bdb85af2fcab4a3c14807981"
 [[package]]
 name = "libwebrtc"
 version = "0.3.30"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ac0c053af35021bc5d2f286b8e6a4f552bc75fdc14e40ebe2d0ef42ffa70a6b4"
 dependencies = [
  "cxx",
  "glib",
@@ -1458,8 +1454,6 @@ checksum = "92daf443525c4cce67b150400bc2316076100ce0b3686209eb8cf3c31612e6f0"
 [[package]]
 name = "livekit"
 version = "0.7.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3c38bd12b8cef6b8589d124e20460fd7ccc4cfb08d817de7d9d4b615d8c48e3f"
 dependencies = [
  "base64 0.22.1",
  "bmrng",
@@ -1486,8 +1480,6 @@ dependencies = [
 [[package]]
 name = "livekit-api"
 version = "0.4.19"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "900451a686a1ce8488c420e81a2135831383b03aade6bc3075cf80463d3dd6a4"
 dependencies = [
  "base64 0.21.7",
  "device-info",
@@ -1518,8 +1510,6 @@ dependencies = [
 [[package]]
 name = "livekit-datatrack"
 version = "0.1.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "94dba71a581354a0dcb89e4a396ae08b386b4103e743b22d145711878105aa8d"
 dependencies = [
  "anyhow",
  "bytes",
@@ -1538,8 +1528,6 @@ dependencies = [
 [[package]]
 name = "livekit-protocol"
 version = "0.7.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6cf1cc4ab39d7857fb31be648f43aa7068acb54a6960270dccd300dd5c8d0a98"
 dependencies = [
  "futures-util",
  "livekit-runtime",
@@ -1555,8 +1543,6 @@ dependencies = [
 [[package]]
 name = "livekit-runtime"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "532e84c6cdc5fe774f2b5d9912597b5f3bea561927a48296d03e24549d21c3f6"
 dependencies = [
  "tokio",
  "tokio-stream",
@@ -3534,8 +3520,6 @@ dependencies = [
 [[package]]
 name = "webrtc-sys"
 version = "0.3.28"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bda197783d7898f62bc52ea551c113d615c266b866b686f4a627277b0f0928b0"
 dependencies = [
  "cc",
  "cxx",
@@ -3549,8 +3533,6 @@ dependencies = [
 [[package]]
 name = "webrtc-sys-build"
 version = "0.3.15"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4f9a618b192cc7c7824b0f3bb931876fa7df8ba518ea163bd9f6e6e2d4b485e8"
 dependencies = [
  "anyhow",
  "fs2",
