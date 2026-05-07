@@ -5,9 +5,9 @@ edition = "2024"
 publish = false
 
 [dependencies]
-livekit = { path = "../../livekit/rust-sdks/livekit", features = ["rustls-tls-native-roots"] }
-libwebrtc = { path = "../../livekit/rust-sdks/libwebrtc" }
-livekit-api = { path = "../../livekit/rust-sdks/livekit-api", default-features = false, features = ["access-token"] }
+livekit = { path = "../rust-sdks/livekit", features = ["rustls-tls-native-roots"] }
+libwebrtc = { path = "../rust-sdks/libwebrtc" }
+livekit-api = { path = "../rust-sdks/livekit-api", default-features = false, features = ["access-token"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "time", "signal"] }
 futures-util = "0.3"
 tracing = "0.1"
